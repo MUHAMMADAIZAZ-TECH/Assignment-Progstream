@@ -16,10 +16,11 @@
 
 
 body {
-	margin: 0;
-	padding: 0;
-	background-color: @background_color_1;
 	font-family: @font_family_1;
+	background-color: @background_color_1;
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
 }
 .text-background {
 	margin: 3rem;
@@ -36,7 +37,7 @@ body {
 .remaining-text {
 	margin: 3rem;
 	position: absolute;
-	top: 530px;
+	top: 520px;
 	font-size: 450px;
 	bottom: 0;
 	z-index: -1;
@@ -44,7 +45,7 @@ body {
 	color: @color_1;
 }
 .heading1 {
-	font-size: 80px;
+	font-size: 75px;
 }
 .paragraph {
 	color: @color_2;
@@ -57,10 +58,8 @@ header {
 	color: @color_4;
 	display: flex;
 	justify-content: space-between;
-	padding-top: 50px;
-	padding-left: 50px;
-	height: 450px;
-	position: relative;
+	padding: 60px 60px;
+	height: 48vh;
 }
 .red-box {
 	background-color: @background_color_2;
@@ -68,14 +67,17 @@ header {
 	position: absolute;
 	top: 0;
 	opacity: 0.5;
-	margin-left: 500px;
+	left: 473px;
 	width: 520px;
-	height: 478px;
+	height: 61vh;
 }
 .logo {
 	img {
 		height: 70px;
 	}
+}
+.icon {
+	display: none;
 }
 nav {
 	ul {
@@ -83,6 +85,7 @@ nav {
 		display: flex;
 		list-style: none;
 		margin: 10px;
+		position: relative;
 	}
 	li {
 		margin: 0 15px;
@@ -106,9 +109,9 @@ nav {
 		padding-left: 50px;
 		padding-right: 50px;
 		padding-bottom: 30px;
-		width: 68%;
+		width: 66%;
 		&+div {
-			width: 32%;
+			width: 34%;
 			background-color: @background_color_3;
 		}
 	}
@@ -176,7 +179,7 @@ nav {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	height: 1180px;
+	height: 150vh;
 	color: @color_4;
 	background-color: @background_color_6;
 	text-align: center;

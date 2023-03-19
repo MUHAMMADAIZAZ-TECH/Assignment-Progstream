@@ -1,8 +1,11 @@
 body{
     font-family:Arial, Helvetica, sans-serif;
-    margin: 0 auto !important;
     background-color: black;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 .text-background {
     margin: 3rem;
     position: absolute;
@@ -18,7 +21,7 @@ body{
 .remaining-text{
     margin: 3rem;
     position: absolute;
-    top: 530px;
+    top: 520px;
     font-size: 450px;
     bottom: 0;
     z-index: -1;
@@ -26,7 +29,7 @@ body{
     color: #525252;
 }
 .heading1{
-    font-size: 80px;
+    font-size: 75px;
   }
   .paragraph{
     color: aliceblue;
@@ -35,15 +38,14 @@ body{
   .light-blue-heading{
     color: aqua;
   }
+
 /* header-style */
 header {
     color: #fff;
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
-    padding-left: 50px;
-    height: 450px;
-    position: relative;
+    padding: 60px 60px;
+    height: 48vh;
   }
   .red-box {
     background-color: red;
@@ -51,19 +53,22 @@ header {
     position: absolute;
     top: 0;
     opacity: 0.5;
-    margin-left: 500px;
+    left: 473px;
     width: 520px;
-    height: 478px;
+    height: 61vh;
   }
   .logo img {
     height: 70px;
+  }
+  .icon{
+    display: none;
   }
   nav ul {
     font-size: larger;
     display: flex;
     list-style: none;
     margin: 10px;
-   
+    position: relative;
   }
   nav li {
     margin: 0 15px;
@@ -89,11 +94,11 @@ header {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 30px;
-    width: 68%;
+    width: 66%;
   }
 
   #section-one>div + div{
-   width: 32%;
+   width: 34%;
    background-color:rgb(49, 115, 214)
   }
   #section-two{
@@ -156,7 +161,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 1180px;
+    height: 150vh;
     color: #fff;
     background-color: rgb(37, 36, 36);
     text-align: center;
@@ -224,23 +229,3 @@ header {
     width: 100%;
     height: 50px;
   }
-  @media only screen and (max-width: 992px) {
-    .body{
-    margin: 0 auto !important; 
-    float: none !important; 
-    }
-  }
-  /* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {...} */
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {...} */
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {...} */
-
-/* Large devices (laptops/desktops, 992px and up) */
-
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {...} */
