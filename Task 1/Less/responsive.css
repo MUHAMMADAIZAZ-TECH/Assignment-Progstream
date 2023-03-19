@@ -35,7 +35,7 @@
     position: absolute;
     top: 150px;
     opacity: 0.5;
-    width: 100%;
+    width: 94%;
     height: 30vh;
     left: 0;
   }
@@ -48,23 +48,39 @@
   .paragraph {
     font-size: 15px;
   }
+  .middle {
+    text-align: center;
+    flex-basis: unset;
+  }
   #section-one {
     width: 100%;
     display: flex;
     flex-direction: column;
+  }
+  #section-one > div {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
   }
   #section-one > div + div {
     width: 100%;
     height: 30vh;
     background-color: #3173d6;
   }
+  #section-one > div > h1 {
+    padding: 30px;
+  }
+  p {
+    padding: 0px 40px 30px 40px;
+  }
   #section-two {
     width: 100%;
-    height: 50vh;
+    height: 65vh;
     background-repeat: no-repeat;
     background-size: 100% 250px;
   }
-   > div#section-two + div {
+  #section-two > div + div {
     float: right;
     padding: 40px 30px 40px 30px;
     margin-top: 0px;
