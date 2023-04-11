@@ -171,5 +171,6 @@ const SectionData = [
     ParagraphClass: "paragraph",
     BoxClass: null,
   },
+  ,
 ];
 export { NavData, ContactUs, SectionData, FeatureData, Products };
